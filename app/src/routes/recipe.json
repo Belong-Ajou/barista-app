@@ -1,0 +1,31 @@
+{
+    "recipe" : [
+        {
+            "name": "Tetsu Kasuya",
+            "dripper": "Hario V60 02",
+            "grounds": 20,
+            "order": ["pour", "pour", "pour", "pour", "pour"],
+            "water": [60, 60, 60, 60, 60],
+            "sec": [45, 45, 45, 45, 45],
+            "img": "https://images.unsplash.com/photo-1514927298007-a2b56e5270e1?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name": "Tetsu Kasuya (Ice)",
+            "dripper": "Hario V60 02",
+            "grounds": 20,
+            "order": ["bloom", "pour", "pour", "pour", "pour"],
+            "water": [49, 25, 25, 25, 25],
+            "sec": [40, 20, 20, 20, 20],
+            "img": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name": "Expensive coffee",
+            "dripper": "Hario V60 02",
+            "grounds": 10,
+            "order": ["bloom", "pour", "pour", "pour"],
+            "water": [30, 40, 60, 40],
+            "sec": [30, 25, 25, 50],
+            "img": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ]
+}
