@@ -11,7 +11,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/card.js" defer></script>
+    <script src="/js/main.js" defer></script>
 
     <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
     <title> Belong's Recipe</title>
@@ -32,12 +32,12 @@
                         <div class="blog-slider__text">
                             <%= recipe_data.recipe[i].grounds %>g of grounds<br>
                             <% for(var j=0; j<recipe_data.recipe[i].order.length; j++){ %>
-                                <%= i+1 %>. <%= recipe_data.recipe[i].order[j] %> - 
+                                <%= j+1 %>. <%= recipe_data.recipe[i].order[j] %> - 
                                 <%= recipe_data.recipe[i].water[j] %>ml
                                 (<%= recipe_data.recipe[i].sec[j] %>sec)<br>
                             <% } %>
                         </div>
-                        <a href="#" class="blog-slider__button" data-recipe="<%= j%>">DRIP</a>
+                        <a href="#" class="blog-slider__button" data-recipe="<%= i%>" onclick='drip_clickcb(<%= i%>)'>DRIP</a>
                     </div>
                 </div>
             <% } %>
